@@ -1,0 +1,106 @@
+input {
+    width: 150px;
+    height: 25px;
+}
+
+input:focus {
+    outline: 1.5px solid #93cbf5;
+
+}
+
+.Form-app {
+    display: flex;
+    flex-direction: column;
+}
+
+.Formbody {
+    display: flex;
+}
+
+.FormContainer {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FormDivision {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 15px -5px #777777;
+    border-radius: 5px;
+    
+}
+
+.OrderForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.OrderForm h2 {
+    margin: 0;
+}
+
+.OrderHeader {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(147, 145, 145);;
+}
+
+.OrderHeader input {
+    margin: auto;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.OrderDetail {
+    margin: 15px 0 25px 0;
+    
+}
+
+.OrderDetail input {
+    margin: 0 5px 5px 0;
+}
+
+.OrderForm button {
+    margin: auto;
+    margin-right: 5px;
+    padding: 10px 25px;
+    background-color: #4f799a;
+    border: none;
+    box-shadow: 0px 0px 15px -5px #777777;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.OrderForm button:hover {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+.deleteBtn {
+    padding: 5px 15px;
+    background-color: rgba(165, 28, 28, 0.885);
+    border: none;
+    box-shadow: 0px 0px 15px -5px #777777;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+    transform: translateY(2px);
+    box-shadow: none;
+}
